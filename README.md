@@ -5,7 +5,7 @@ This is a Rails API App that sends emails
 
 ## Setup
 #### System dependencies
-You should have Ruby `2.6.2` installed. If your Ruby version management tool supports `.ruby-version`, you may have been prompted to install this version on your system. I use (https://rvm.io/)[RVM]
+You should have Ruby `2.6.2` installed. If your Ruby version management tool supports `.ruby-version`, you may have been prompted to install this version on your system. I use [RVM](https://rvm.io/)
 
 * [Rubygems](https://rubygems.org/pages/download)
 * [PostgreSQL](https://www.postgresql.org/download/)
