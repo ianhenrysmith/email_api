@@ -1,6 +1,8 @@
 ## README
 This is a Rails API App that sends emails
 
+![ralph wiggum sending mail](https://i.giphy.com/media/iz30qSwSKKCnC/giphy.gif)
+
 ## Setup
 #### System dependencies
 You should have Ruby `2.6.2` installed. If your Ruby version management tool supports `.ruby-version`, you may have been prompted to install this version on your system. I use (https://rvm.io/)[RVM]
