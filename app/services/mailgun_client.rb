@@ -15,12 +15,12 @@ class MailgunClient
   attr_accessor :http_client
 
   def email_create_path
-    "/v3/#{ENV.fetch('MAILGUN_DOMAIN_NAME')}/messages"
+    "/v3/#{ENV['MAILGUN_DOMAIN_NAME']}/messages"
   end
 
   def init_faraday_client
-    Faraday.new(url: ENV.fetch('MAILGUN_API_BASE_URL')) do |conn|
-      conn.basic_auth('api', ENV.fetch('MAILGUN_API_KEY'))
+    Faraday.new(url: ENV['MAILGUN_API_BASE_URL']) do |conn|
+      conn.basic_auth('api', ENV['MAILGUN_API_KEY'])
     end
   end
 end
