@@ -5,13 +5,10 @@ This is a Rails API App that sends emails
 
 ## Setup
 #### System dependencies
-You should have Ruby `2.6.2` installed. If your Ruby version management tool supports `.ruby-version`, you may have been prompted to install this version on your system. I use [RVM](https://rvm.io/)
-
+* You should have Ruby `2.6.2` installed. If your Ruby version management tool supports `.ruby-version`, you may have been prompted to install this version on your system. I use [RVM](https://rvm.io/).
 * [Rubygems](https://rubygems.org/pages/download)
-* [PostgreSQL](https://www.postgresql.org/download/)
 * [Bundler](https://bundler.io/)
-
-You will need to be able to set environment variables from `.env` and `.env.local` files so that you can send emails. I use [Direnv](https://direnv.net/). The environment variables you will need to set are: `EMAIL_PROVIDER`, `MAILGUN_API_BASE_URL`, `MAILGUN_API_KEY` and `MAILGUN_DOMAIN_NAME`.
+* You will need to be able to set environment variables from `.env` and `.env.local` files so that you can send emails. I use [Direnv](https://direnv.net/). The environment variables you will need to set are: `EMAIL_PROVIDER`, `MAILGUN_API_BASE_URL`, `MAILGUN_API_KEY` and `MAILGUN_DOMAIN_NAME`.
 
 #### Configuration
 Run the following commands in your terminal to run the app:
